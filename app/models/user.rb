@@ -1,6 +1,5 @@
 class User < ApplicationRecord
-  #nameとuseridとpasswordカラムは空でなくユニーク
+  #nameとuseridとpasswordカラムは空でない
   validates :name, :userid, :password,
-            presence: true,
-            uniqueness: { allow_blank: true }
+            presence: true
 end
