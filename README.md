@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Railsの学習のため、TwitterのようなWebアプリケーションを作成する
 
-Things you may want to cover:
+・作成開始日：2016年12月26日（月）
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails g scaffold User name:string userid:string about:string
+rails g scaffold Note content:text
